@@ -9,8 +9,6 @@ import java.util.Scanner;
  */
 public class Application {
 
-    //private static long choose;
-
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -19,24 +17,5 @@ public class Application {
         System.out.println("Twoja liczba w formie tekstu: " + ConverterLogic.allmightyConverter(numberToConvert));
 
     }
-
-
-        /*for (;;) {
-            if (!input.hasNextLong()) {
-                System.out.println("Proszę podać tylko wartości liczbowe!!");
-                input.next();
-                continue;
-            }
-            choose = input.nextLong();
-            if (choose >= 0) {
-                System.out.print("Twoja liczba w formie tekstu: " + ConverterLogic.allmightyConverter());
-
-            } else {
-                System.out.print("Proszę podać tylko wartości liczbowe!");
-
-            }
-            break;
-        }*/
 }
-
 
