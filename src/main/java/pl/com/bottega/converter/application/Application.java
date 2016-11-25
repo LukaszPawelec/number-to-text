@@ -18,13 +18,12 @@ public class Application {
         Long numberToConvert = input.nextLong();
         System.out.println("Twoja liczba w formie tekstu: " + ConverterLogic.allmightyConverter(numberToConvert));
 
-
     }
 
 
         /*for (;;) {
             if (!input.hasNextLong()) {
-                System.out.println("Proszę podać tylko wartości liczbowe!");
+                System.out.println("Proszę podać tylko wartości liczbowe!!");
                 input.next();
                 continue;
             }
